@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Ethiopian Orthodox Tewahedo Misbak MP3 Player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/AudioPlayer.css">
+    <style>
+
+    #player{
+        position: relative;
+        max-width: 1000px;
+        height: 600px;
+        border: solid 1px gray;
+    }
+    </style>
+  </head>
+
+  <body>
+      <!-- Audio player container-->
+     <div id='player'></div>
+
+    <!-- Audio player js begin-->
+    <script src="js/AudioPlayer.js"></script>
+
+    <script>
+        // test image for web notifications
+        var iconImage = null;
+
+        AP.init({
+            container:'#player',//a string containing one CSS selector
+            volume   : 0.7,
+            autoPlay : true,
+            notification: false,
+            playList: [
+                {'icon': iconImage, 'title': 'Tahesas 1', 'file': 'mp3/01 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 2', 'file': 'mp3/02 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 3', 'file': 'mp3/03 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 4', 'file': 'mp3/04 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 5', 'file': 'mp3/05 Tahesas.mp3'}, 
+                {'icon': iconImage, 'title': 'Tahesas 6', 'file': 'mp3/06 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 7', 'file': 'mp3/07 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 8', 'file': 'mp3/08 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 9', 'file': 'mp3/09 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 10', 'file': 'mp3/10 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 11', 'file': 'mp3/11 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 12', 'file': 'mp3/12 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 13', 'file': 'mp3/13 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 14', 'file': 'mp3/14 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 15', 'file': 'mp3/15 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 16', 'file': 'mp3/16 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 17', 'file': 'mp3/17 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 18', 'file': 'mp3/18 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 19', 'file': 'mp3/19 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 20', 'file': 'mp3/20 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 21', 'file': 'mp3/21 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 22', 'file': 'mp3/22 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 23', 'file': 'mp3/23 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 24', 'file': 'mp3/24 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 25', 'file': 'mp3/25 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 26', 'file': 'mp3/26 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 27', 'file': 'mp3/27 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 28', 'file': 'mp3/28 Tahesas.mp3'},
+                {'icon': iconImage, 'title': 'Tahesas 29', 'file': 'mp3/29 Tahesas.mp3'},
+          ]
+        });
+    </script>
+    <!-- Audio player js end-->
+
+  </body>
+</html>
