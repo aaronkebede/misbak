@@ -2,11 +2,11 @@
 <html >
   <head>
     <meta charset="UTF-8">
-    <title>Audio player HTML5</title>
+    <title>Ethiopian Orthodox Tewahedo Misbak MP3 Player</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://misbak.kebede.org/css/AudioPlayer.css">
+    <link rel="stylesheet" href="/css/AudioPlayer.css">
     <style>
 
     #player{
@@ -23,7 +23,7 @@
      <div id='player'></div>
 
     <!-- Audio player js begin-->
-    <script src="https://misbak.kebede.org/js/AudioPlayer.js"></script>
+    <script src="/js/AudioPlayer.js"></script>
 
     <script>
         // test image for web notifications
@@ -33,7 +33,7 @@
             container:'#player',//a string containing one CSS selector
             volume   : 0.7,
             autoPlay : false,
-            notification: true,
+            notification: false,
             playList: [
                 {'icon': iconImage, 'title': 'Tahesas 1', 'file': 'mp3/01 Tahesas.mp3'},
                 {'icon': iconImage, 'title': 'Tahesas 2', 'file': 'mp3/02 Tahesas.mp3'},
