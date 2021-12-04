@@ -11,8 +11,8 @@
 
     #player{
         position: relative;
-        max-width: 100%;
-        height: 100%;
+        max-width: 1000px;
+        height: 600px;
         border: solid 1px gray;
     }
     </style>
@@ -27,13 +27,13 @@
 
     <script>
         // test image for web notifications
-        var iconImage = "https://misbak.kebede.org/cover.jpg";
+        var iconImage = ;
 
         AP.init({
             container:'#player',//a string containing one CSS selector
             volume   : 0.7,
-            autoPlay : true,
-            notification: false,
+            autoPlay : false,
+            notification: true,
             playList: [
                 {'icon': iconImage, 'title': 'Tahesas 1', 'file': 'mp3/01 Tahesas.mp3'},
                 {'icon': iconImage, 'title': 'Tahesas 2', 'file': 'mp3/02 Tahesas.mp3'},
