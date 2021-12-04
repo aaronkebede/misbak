@@ -1,0 +1,76 @@
+
+  
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Ethiopian Orthodox Tewahedo Misbak MP3 Player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/AudioPlayer.css">
+    <style>
+
+    #player{
+        position: relative;
+        max-width: 1000px;
+        height: 600px;
+        border: solid 1px gray;
+    }
+    </style>
+  </head>
+
+  <body>
+      <!-- Audio player container-->
+     <div id='player'></div>
+
+    <!-- Audio player js begin-->
+    <script src="js/AudioPlayer.js"></script>
+
+    <script>
+        // test image for web notifications
+        var iconImage = null;
+
+        AP.init({
+            container:'#player',//a string containing one CSS selector
+            volume   : 0.7,
+            autoPlay : true,
+            notification: false,
+            playList: [
+                {'icon': iconImage, 'title': 'Yekatit 1', 'file': 'mp3/01 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 2', 'file': 'mp3/02 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 3', 'file': 'mp3/03 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 4', 'file': 'mp3/04 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 5', 'file': 'mp3/05 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 6', 'file': 'mp3/06 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 7', 'file': 'mp3/07 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 8', 'file': 'mp3/08 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 9', 'file': 'mp3/09 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 10', 'file': 'mp3/10 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 11', 'file': 'mp3/11 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 12', 'file': 'mp3/12 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 13', 'file': 'mp3/13 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 14', 'file': 'mp3/14 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 15', 'file': 'mp3/15 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 16', 'file': 'mp3/16 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 17', 'file': 'mp3/17 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 18', 'file': 'mp3/18 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 19', 'file': 'mp3/19 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 20', 'file': 'mp3/20 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 21', 'file': 'mp3/21 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 22', 'file': 'mp3/22 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 23', 'file': 'mp3/23 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 24', 'file': 'mp3/24 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 25', 'file': 'mp3/25 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 26', 'file': 'mp3/26 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 27', 'file': 'mp3/27 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 28', 'file': 'mp3/28 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 29', 'file': 'mp3/29 yeka.mp3'},
+                {'icon': iconImage, 'title': 'Yekatit 30', 'file': 'mp3/30 yeka.mp3'},
+          ]
+        });
+    </script>
+    <!-- Audio player js end-->
+
+  </body>
+</html>
