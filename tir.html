@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Ethiopian Orthodox Tewahedo Misbak MP3 Player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/AudioPlayer.css">
+    <style>
+
+    #player{
+        position: relative;
+        max-width: 1000px;
+        height: 600px;
+        border: solid 1px gray;
+    }
+    </style>
+  </head>
+
+  <body>
+      <!-- Audio player container-->
+     <div id='player'></div>
+
+    <!-- Audio player js begin-->
+    <script src="js/AudioPlayer.js"></script>
+
+    <script>
+        // test image for web notifications
+        var iconImage = null;
+
+        AP.init({
+            container:'#player',//a string containing one CSS selector
+            volume   : 0.7,
+            autoPlay : true,
+            notification: false,
+            playList: [
+                {'icon': iconImage, 'title': 'Tir 1', 'file': 'mp3/01 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 2', 'file': 'mp3/02 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 3', 'file': 'mp3/03 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 4', 'file': 'mp3/04 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 5', 'file': 'mp3/05 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 6', 'file': 'mp3/06 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 7', 'file': 'mp3/07 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 8', 'file': 'mp3/08 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 9', 'file': 'mp3/09 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 10', 'file': 'mp3/10 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 11', 'file': 'mp3/11 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 12', 'file': 'mp3/12 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 13', 'file': 'mp3/13 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 14', 'file': 'mp3/14 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 15', 'file': 'mp3/15 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 16', 'file': 'mp3/16 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 17', 'file': 'mp3/17 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 18', 'file': 'mp3/18 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 19', 'file': 'mp3/19 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 20', 'file': 'mp3/20 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 21', 'file': 'mp3/21 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 22', 'file': 'mp3/22 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 23', 'file': 'mp3/23 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 24', 'file': 'mp3/24 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 25', 'file': 'mp3/25 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 26', 'file': 'mp3/26 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 27', 'file': 'mp3/27 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 28', 'file': 'mp3/28 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 29', 'file': 'mp3/29 tir.mp3'},
+                {'icon': iconImage, 'title': 'Tir 30', 'file': 'mp3/20 tir.mp3'},
+          ]
+        });
+    </script>
+    <!-- Audio player js end-->
+
+  </body>
+</html>
