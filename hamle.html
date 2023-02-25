@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Ethiopian Orthodox Tewahedo Misbak MP3 Player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/AudioPlayer.css">
+    <style>
+
+    #player{
+        position: relative;
+        max-width: 1920px;
+        height: 768px;
+        border: solid 1px gray;
+    }
+    </style>
+  </head>
+
+  <body>
+      <!-- Audio player container-->
+     <div id='player'></div>
+
+    <!-- Audio player js begin-->
+    <script src="js/AudioPlayer.js"></script>
+
+    <script>
+        // test image for web notifications
+        var iconImage = null;
+
+        AP.init({
+            container:'#player',//a string containing one CSS selector
+            volume   : 0.7,
+            autoPlay : true,
+            notification: false,
+            playList: [
+                {'icon': iconImage, 'title': 'Megabit 1', 'file': 'mp3/01 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 2', 'file': 'mp3/02 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 3', 'file': 'mp3/03 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 4', 'file': 'mp3/04 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 5', 'file': 'mp3/05 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 6', 'file': 'mp3/06 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 7', 'file': 'mp3/07 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 8', 'file': 'mp3/08 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 9', 'file': 'mp3/09 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 10', 'file': 'mp3/10 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 11', 'file': 'mp3/11 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 12', 'file': 'mp3/12 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 13', 'file': 'mp3/13 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 14', 'file': 'mp3/14 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 15', 'file': 'mp3/15 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 16', 'file': 'mp3/16 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 17', 'file': 'mp3/17 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 18', 'file': 'mp3/18 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 19', 'file': 'mp3/19 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 20', 'file': 'mp3/20 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 21', 'file': 'mp3/21 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 22', 'file': 'mp3/22 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 23', 'file': 'mp3/23 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 24', 'file': 'mp3/24 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 25', 'file': 'mp3/25 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 26', 'file': 'mp3/26 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 27', 'file': 'mp3/27 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 28', 'file': 'mp3/28 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 29', 'file': 'mp3/29 megabit.mp3'},
+                {'icon': iconImage, 'title': 'Megabit 30', 'file': 'mp3/30 megabit.mp3'},
+          ]
+        });
+    </script>
+    <!-- Audio player js end-->
+
+  </body>
+</html>
